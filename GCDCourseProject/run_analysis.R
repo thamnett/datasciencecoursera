@@ -53,4 +53,4 @@ grouped <- data.frame(grouped)
 grouped <- select(grouped,-label)
 
 #write tidy dataset
-write.table(grouped,file="tidy_data.txt")
+write.table(grouped,file="tidy_data.txt",row.name=FALSE)
